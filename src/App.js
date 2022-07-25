@@ -1,13 +1,12 @@
-
-import ProductContainer from "./components/ProductContainer";
+import Header from "./components/Header";
+import Home from "./components/Home";
 import styled from "styled-components";
-
-
 
 function App() {
   return (
     <Wrap>
-      <ProductContainer />
+      <Header />
+      <Home />
     </Wrap>
   );
 }
